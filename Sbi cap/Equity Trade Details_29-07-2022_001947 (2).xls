@@ -1,0 +1,366 @@
+
+
+
+
+
+
+
+
+
+
+<script> 
+var isNS = (navigator.appName == "Netscape") ? 1 : 0; 
+if(navigator.appName == "Netscape") 
+	document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);  
+	function mischandler(){   
+		return false; 
+		}  
+	function mousehandler(e){ 	
+		var myevent = (isNS) ? e : event; 	
+		var eventbutton = (isNS) ? myevent.which : myevent.button;    
+		if((eventbutton==2)||(eventbutton==3)) 
+			return false; 
+		} 
+		document.oncontextmenu = mischandler; 
+		document.onmousedown = mousehandler; 
+		document.onmouseup = mousehandler;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<HTML>
+	<HEAD>
+	 
+   
+      <link rel="stylesheet" id="stylesheet"type="text/css" href="/precision/framework/common1.css">
+	  
+		<script language=javascript src="/precision/framework/common.js"></script>
+		
+<style>
+    .detail_border
+    {
+        border-style:solid;
+        border-width:1px;
+    }
+    .row_heading_1
+    {
+        font-family: verdana, "Comic Sans MS", Arial, Helvetica, sans-serif;
+        text-decoration:none;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 21px;
+        color: #000000;
+        text-align: center;
+        background-color:#A5C7E7;
+        border-style:solid;
+    }
+</style>
+
+	</HEAD>
+	<BODY>	
+		<table align=center border=0 width=1000 cellspacing=0 cellpadding=1 class=page_text>
+		<THEAD>
+		
+		
+
+
+		
+		
+			
+			
+			
+			<Tr><Td colspan="26" align="center" style="BORDER-RIGHT:none; BORDER-TOP:none; BORDER-LEFT:none;"><center><span class=param_title><b> Equity Trade Report  for the period   01/04/21   to   31/03/22<b></span></center></Td></Tr><Tr><Td colspan="23" align='left' class=param_list>Entity Id : 72755964</Td><td colspan="3"  align=right class=info>Amount is in Rs.</Td></Tr>
+		<TR>
+		<TH width="4%" class=row_heading_1 style="background-color: #CC99FF;"><b>Trd Dt</b></TH> 
+		<TH width="4%" class=row_heading_1 style="background-color: #CC99FF;"><b>Trd No.</b></TH> 
+		<TH width="4%" class=row_heading_1 style="background-color: #CC99FF;"><b>Order No.</b></TH> 
+		<TH width="3%" class=row_heading_1 style="background-color: #CC99FF;"><b>Exch</b></TH> 
+		<TH width="4%" class=row_heading_1 style="background-color: #CC99FF;"><b>Sett No</b></TH> 
+		<TH width="3%" class=row_heading_1 style="background-color: #CC99FF;"><b>Sett Type</b></TH> 
+		<TH width="4%" class=row_heading_1 style="background-color: #CC99FF;"><b>Trade Time</b></TH> 
+		<TH width="4%" class=row_heading_1 style="background-color: #CC99FF;"><b>Order Time</b></TH> 
+		<TH width="6%" class=row_heading_1 style="background-color: #CC99FF;"><b>Scrip Name</b></TH> 
+		<TH width="3%" class=row_heading_1 style="background-color: #CC99FF;"><b>Buy/Sell</b></TH> 
+		<TH width="3%" class=row_heading_1 style="background-color: #CC99FF;"><b>Qty</b></TH> 
+		<TH width="3%" class=row_heading_1 style="background-color: #CC99FF;"><b>Mkt Price</b></TH> 
+		<TH width="4%" class=row_heading_1 style="background-color: #CC99FF;"><b>Mkt Value</b></TH> 
+		<TH width="4%" class=row_heading_1 style="background-color: #CC99FF;"><b>Squp/Del</b></TH> 
+		<TH width="4%" class=row_heading_1 style="background-color: #CC99FF;"><b>Brok Amt</b></TH> 
+		<TH width="4%" class=row_heading_1 style="background-color: #CC99FF;"><b>CGST</b></TH> 
+		<TH width="4%" class=row_heading_1 style="background-color: #CC99FF;"><b>Stamp Duty</b></TH> 
+		<TH width="3%" class=row_heading_1 style="background-color: #CC99FF;"><b>Transn Chrg</b></TH> 
+		<TH width="3%" class=row_heading_1 style="background-color: #CC99FF;"><b>CGST on Transn Chrg</b></TH> 
+		<TH width="4%" class=row_heading_1 style="background-color: #CC99FF;"><b>STT</b></TH> 
+		<TH width="4%" class=row_heading_1 style="background-color: #CC99FF;"><b>Sebi Turnover Tax</b></TH> 
+		<TH width="4%" class=row_heading_1 style="background-color: #CC99FF;"><b>SGST</b></TH> 
+		<TH width="3%" class=row_heading_1 style="background-color: #CC99FF;"><b>IGST</b></TH> 
+		<TH width="3%" class=row_heading_1 style="background-color: #CC99FF;"><b>Other Chrg</b></TH> 
+		<TH width="3%" class=row_heading_1 style="background-color: #CC99FF;"><b>Net Amt</b></TH> 
+		<TH width="3%" class=row_heading_1 style="background-color: #CC99FF;"><b>Product</b></TH>
+		<TH width="2%" class=row_heading_1 style="background-color: #CC99FF;"><b>SIP Flag</b></TH>
+		<TH width="3%" class=row_heading_1 style="background-color: #CC99FF;"><b>SIP Ref No</b></TH>
+		</TR> 
+		</THEAD>
+		<TBODY>
+			
+		
+			
+				<TR>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 28-Jun-2021 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> ="2021062803162965" </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> ="1000000011634204" </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> NSE </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 2021120 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> N </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 12:33:55 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 12:33:53 </Td>
+					<TD bgcolor=#EBEEF7 width="6%"   Align=center class=detail_border> DODLA DAIRY LIMITED </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> S </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> 35 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>            584.95 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>          20473.25 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> D </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>             20.30 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.56 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>             20.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.02 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              3.75 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> 20428.62 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> Cash </Td>
+					<TD bgcolor=#EBEEF7 width="2%"   Align=center class=detail_border> N </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> null </Td>
+
+				</TR>
+				
+		
+			
+				<TR>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 05-Jul-2021 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> ="2021070511084500" </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> ="1625455800000306903" </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> BSE </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 2122066 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> W </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 10:54:04 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 10:14:57 </Td>
+					<TD bgcolor=#EBEEF7 width="6%"   Align=center class=detail_border> JAIPRAKASH ASSOCIATES LTD </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> B </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> 1730 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>             13.53 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>          23406.90 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> D </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>             17.30 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              4.00 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.81 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>             23.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.02 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              3.26 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> -23455.29 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> Cash </Td>
+					<TD bgcolor=#EBEEF7 width="2%"   Align=center class=detail_border> N </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> null </Td>
+
+				</TR>
+				
+		
+			
+				<TR>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 13-Jul-2021 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> ="2021071354599803" </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> ="1200000014795822" </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> NSE </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 2021131 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> W </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 15:42:59 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 15:42:59 </Td>
+					<TD bgcolor=#EBEEF7 width="6%"   Align=center class=detail_border> JAIPRAKASH ASSOCIATES LTD </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> S </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> 1524 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>             13.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>          19812.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> D </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>             15.24 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.54 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>             19.38 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.02 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              2.84 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> 19773.98 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> Cash </Td>
+					<TD bgcolor=#EBEEF7 width="2%"   Align=center class=detail_border> N </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> null </Td>
+
+				</TR>
+				
+		
+			
+				<TR>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 13-Jul-2021 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> ="2021071354599853" </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> ="1200000014795822" </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> NSE </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 2021131 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> W </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 15:43:10 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 15:42:59 </Td>
+					<TD bgcolor=#EBEEF7 width="6%"   Align=center class=detail_border> JAIPRAKASH ASSOCIATES LTD </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> S </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> 25 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>             13.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>            325.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> D </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.25 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.01 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.32 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.05 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> 324.37 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> Cash </Td>
+					<TD bgcolor=#EBEEF7 width="2%"   Align=center class=detail_border> N </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> null </Td>
+
+				</TR>
+				
+		
+			
+				<TR>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 13-Jul-2021 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> ="2021071354599862" </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> ="1200000014795822" </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> NSE </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 2021131 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> W </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 15:43:14 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 15:42:59 </Td>
+					<TD bgcolor=#EBEEF7 width="6%"   Align=center class=detail_border> JAIPRAKASH ASSOCIATES LTD </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> S </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> 25 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>             13.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>            325.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> D </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.25 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.01 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.32 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.05 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> 324.37 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> Cash </Td>
+					<TD bgcolor=#EBEEF7 width="2%"   Align=center class=detail_border> N </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> null </Td>
+
+				</TR>
+				
+		
+			
+				<TR>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 13-Jul-2021 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> ="2021071354600266" </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> ="1200000014795822" </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> NSE </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 2021131 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> W </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 15:45:26 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 15:42:59 </Td>
+					<TD bgcolor=#EBEEF7 width="6%"   Align=center class=detail_border> JAIPRAKASH ASSOCIATES LTD </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> S </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> 156 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>             13.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>           2028.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> D </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              1.56 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.06 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              1.98 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.29 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> 2024.11 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> Cash </Td>
+					<TD bgcolor=#EBEEF7 width="2%"   Align=center class=detail_border> N </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> null </Td>
+
+				</TR>
+				
+		
+			
+				<TR>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 05-Jan-2022 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> ="2022010551734281" </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> ="1200000006539788" </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> NSE </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 2022003 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> N </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 10:40:33 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> 10:40:24 </Td>
+					<TD bgcolor=#EBEEF7 width="6%"   Align=center class=detail_border> MTAR TECHNOLOGIES LIMITED </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> S </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> 26 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>           2412.90 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>          62735.40 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border> D </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>             62.66 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              1.73 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>             63.00 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.06 </Td>
+					<TD bgcolor=#EBEEF7 width="4%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>             11.59 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border>              0.00 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> 62596.36 </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> Cash </Td>
+					<TD bgcolor=#EBEEF7 width="2%"   Align=center class=detail_border> N </Td>
+					<TD bgcolor=#EBEEF7 width="3%"   Align=center class=detail_border> 0 </Td>
+
+				</TR>
+				
+		</TBODY>
+				</TABLE>
+	</BODY>
+</HTML>
+
+
+
+
+
+
